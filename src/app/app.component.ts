@@ -27,12 +27,16 @@ export class AppComponent {
 
       if (domMath <= 2) {
         gryf = gryf + 1;
+        alert('คุณได้อยู้บ้าน กริฟฟินดอร์')
       } else if (domMath <= 4 && domMath > 2) {
         huff = huff + 1;
+        alert('คุณได้อยู้บ้าน ฮัฟเฟิลพัฟ')
       } else if (domMath <= 6 && domMath > 4) {
         slyt = slyt + 1;
+        alert('คุณได้อยู้บ้าน เรเวนคลอ')
       } else if (domMath <= 9 && domMath > 6) {
         raven = raven + 1;
+        alert('คุณได้อยู้บ้าน สลิธีรีน')
       }
     }
 
